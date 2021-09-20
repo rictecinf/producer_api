@@ -1,4 +1,4 @@
-import { bodyParser, cors, contentType } from './middlewares/index'
+import { bodyParser, cors, contentType } from '@/main/config/middlewares/index'
 
 import { Express } from 'express'
 

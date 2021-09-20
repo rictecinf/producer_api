@@ -1,11 +1,10 @@
 
-
 export interface Request {
-    body?: any,
+  statusCode: number
+  body?: any
 }
 
 export interface Response {
-    body: any,
-    statusCode: number
+  body: any
+  statusCode: number
 }
-
